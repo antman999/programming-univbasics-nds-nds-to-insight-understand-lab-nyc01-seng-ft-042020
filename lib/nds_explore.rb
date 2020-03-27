@@ -11,7 +11,7 @@ def print_first_directors_movie_titles
 counter = 0 
 dir = directors_database[0][:movies]
 dir.each do |counter,title|
-  title.psuh(dir[counter][:title])
+  title.push(dir[counter][:title])
   puts title
   counter +=1
 
