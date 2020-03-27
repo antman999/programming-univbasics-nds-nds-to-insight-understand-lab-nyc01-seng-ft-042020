@@ -12,8 +12,8 @@ counter = 0
 dir = directors_database[0][:movies]
 while counter < dir.length do 
   title = dir[conter][:title]
+  puts title
   counter +=1
 
 end
-puts title
 end
